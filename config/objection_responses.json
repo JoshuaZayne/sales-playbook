@@ -1,0 +1,144 @@
+{
+    "objections": [
+        {
+            "id": 1,
+            "category": "price",
+            "objection": "Your solution is too expensive compared to competitors.",
+            "response": "I understand cost is a key consideration. Let's look at the total cost of ownership - our clients typically see a 25-40% reduction in operational costs within the first year. When we factor in the efficiency gains from automated data aggregation and reduced manual reconciliation, the ROI often exceeds 300% over three years. Would it be helpful to build a custom ROI model for your specific situation?",
+            "proof_points": ["Average 35% cost reduction", "300%+ 3-year ROI", "6-month typical payback period"]
+        },
+        {
+            "id": 2,
+            "category": "price",
+            "objection": "We don't have budget allocated for this initiative.",
+            "response": "Many of our clients started in a similar position. What we've found effective is positioning this as a cost-reduction initiative rather than new spend. The operational savings typically fund the investment. Can we explore which cost centers would see the biggest impact to help you build an internal business case?",
+            "proof_points": ["Self-funding through operational savings", "CFO-ready business case templates available"]
+        },
+        {
+            "id": 3,
+            "category": "price",
+            "objection": "We need to reduce the annual license fee.",
+            "response": "I appreciate you being direct about pricing. Before we discuss specific numbers, I want to make sure we're aligned on the value. Based on our discovery, you mentioned potential savings of $X annually. Our pricing is designed to ensure you see positive ROI within the first year. What if we structured a pilot to prove out the value before committing to a full deployment?",
+            "proof_points": ["Pilot programs available", "Performance-based pricing options"]
+        },
+        {
+            "id": 4,
+            "category": "competitor",
+            "objection": "We're already evaluating [Competitor] and they seem comparable.",
+            "response": "That's a thorough approach to evaluation. Many of our current clients evaluated [Competitor] as well. What they found differentiating was our data accuracy rate of 99.5% versus industry average of 85%, and our ability to cleanse and categorize transaction data at the merchant level. What's most important to you in making this decision?",
+            "proof_points": ["99.5% data accuracy", "Merchant-level categorization", "Named customer references available"]
+        },
+        {
+            "id": 5,
+            "category": "competitor",
+            "objection": "We already have a solution in place with [Incumbent].",
+            "response": "Understood - switching costs are real. What we typically see with clients using [Incumbent] is challenges around data quality and limited insights. Would it be valuable to do a side-by-side data quality comparison? We could run a sample of your transaction data through both systems and let the results speak for themselves.",
+            "proof_points": ["Free data quality assessment", "Parallel running supported", "Migration assistance included"]
+        },
+        {
+            "id": 6,
+            "category": "timing",
+            "objection": "This isn't a priority for us right now.",
+            "response": "I respect that you have competing priorities. Help me understand - what initiatives are taking precedence? Often, data and analytics capabilities are foundational to other strategic initiatives like digital transformation or member experience improvements. Is there alignment we might be missing?",
+            "proof_points": ["Enables broader digital transformation", "Foundation for AI/ML initiatives"]
+        },
+        {
+            "id": 7,
+            "category": "timing",
+            "objection": "We need to wait until next fiscal year.",
+            "response": "I understand budget cycles. One approach that's worked well is starting the evaluation and contracting process now, with implementation beginning in your new fiscal year. This lets you hit the ground running in Q1. Would that approach work for your planning process?",
+            "proof_points": ["Flexible contract start dates", "Q1 implementation readiness"]
+        },
+        {
+            "id": 8,
+            "category": "timing",
+            "objection": "We're in the middle of a core conversion.",
+            "response": "Core conversions are definitely all-consuming. The good news is that many clients implement our solution during or immediately after a core conversion because it's an ideal time to upgrade data capabilities. We're pre-integrated with [their new core], which simplifies the process. When is your target go-live?",
+            "proof_points": ["Pre-built core integrations", "Post-conversion implementation support"]
+        },
+        {
+            "id": 9,
+            "category": "integration",
+            "objection": "I'm concerned about integration complexity with our existing systems.",
+            "response": "Integration concerns are completely valid. We've built 95+ pre-built connectors specifically for financial services, including direct integrations with all major cores like FIS, Fiserv, and Jack Henry. Our average implementation time is 8-12 weeks, and we handle the heavy lifting. Would it help to have our solutions architect walk through your specific tech stack?",
+            "proof_points": ["95+ pre-built connectors", "8-12 week average implementation", "Dedicated integration team"]
+        },
+        {
+            "id": 10,
+            "category": "integration",
+            "objection": "Our IT team is stretched too thin to support another implementation.",
+            "response": "I hear that often - IT bandwidth is precious. Our implementation model is designed to minimize IT burden. We need roughly 10-15 hours of IT involvement for a typical deployment, primarily for security review and API credentials. We handle configuration, testing, and data validation. Would it help to share our IT requirements document?",
+            "proof_points": ["10-15 hours typical IT involvement", "Dedicated implementation manager", "IT requirements document available"]
+        },
+        {
+            "id": 11,
+            "category": "security",
+            "objection": "We have concerns about data security and compliance.",
+            "response": "Security is non-negotiable in financial services. We're SOC 2 Type II certified, undergo annual penetration testing, and are compliant with GLBA, CCPA, and all relevant banking regulations. Our data never leaves the US, and we can deploy in your private cloud if required. Can I connect you with our security team for a detailed review?",
+            "proof_points": ["SOC 2 Type II certified", "Annual pen testing", "GLBA/CCPA compliant", "US-only data residency"]
+        },
+        {
+            "id": 12,
+            "category": "security",
+            "objection": "Our security team will never approve a cloud-based solution.",
+            "response": "We work with security teams regularly - in fact, many have become advocates after reviewing our architecture. We offer multiple deployment options including private cloud, hybrid, and on-premise for highly regulated environments. What specific concerns does your security team have that I can address proactively?",
+            "proof_points": ["Multiple deployment options", "Private cloud available", "On-premise option for regulated environments"]
+        },
+        {
+            "id": 13,
+            "category": "authority",
+            "objection": "I need to get buy-in from my executive team.",
+            "response": "Absolutely - these decisions require executive alignment. What would be most helpful in presenting to your leadership? We have executive briefing materials, customer case studies with ROI data, and I can also arrange a peer reference call with a similar institution's executive. What resonates most with your leadership team?",
+            "proof_points": ["Executive briefing materials", "Peer reference calls", "Board-ready presentation decks"]
+        },
+        {
+            "id": 14,
+            "category": "authority",
+            "objection": "This decision needs to go through our vendor management process.",
+            "response": "Understood - governance processes are important. We're experienced with FI vendor management requirements. We can provide all standard due diligence documentation upfront, including SOC reports, business continuity plans, and financial statements. Would it help to have a kickoff call with your vendor management team to streamline the process?",
+            "proof_points": ["Due diligence package ready", "Experienced with FI vendor management", "Proactive documentation provision"]
+        },
+        {
+            "id": 15,
+            "category": "need",
+            "objection": "We're not sure we really need this capability.",
+            "response": "That's a fair question to ask. Let me share what we're seeing in the market - institutions without strong data aggregation and insights capabilities are losing members to digital-first competitors who offer better financial wellness tools. Our data shows FIs using these capabilities see 15% higher member retention. What's your current strategy for competing with digital banks?",
+            "proof_points": ["15% higher member retention", "Competitive differentiation", "Digital bank competition response"]
+        },
+        {
+            "id": 16,
+            "category": "need",
+            "objection": "Our current tools meet our needs adequately.",
+            "response": "I appreciate that perspective. May I ask - what visibility do you currently have into member spending behavior? Can you identify members at risk of attrition? Many institutions think their current tools are adequate until they see what's possible with enriched transaction data. Would a brief demo showing these capabilities be valuable?",
+            "proof_points": ["Advanced analytics capabilities", "Attrition prediction", "Spending behavior insights"]
+        },
+        {
+            "id": 17,
+            "category": "internal",
+            "objection": "We tried to build this capability internally.",
+            "response": "Building in-house is a common first approach. What we've found is that maintaining data quality at scale requires continuous investment that's hard to justify internally. Our clients who previously built internally typically cite 3-5x the ongoing cost versus our solution, plus opportunity cost of engineering resources. What challenges did you encounter with the internal build?",
+            "proof_points": ["3-5x cost of internal build", "Continuous data maintenance included", "Engineering resource reallocation"]
+        },
+        {
+            "id": 18,
+            "category": "internal",
+            "objection": "Our data science team wants to own this.",
+            "response": "Data science teams are great partners for us. Rather than replacing their work, we provide the clean, enriched data foundation they need to build models faster. Many of our clients' data scientists become our biggest advocates because we free them from data wrangling to focus on higher-value analytics. Would your data science lead be open to a technical discussion?",
+            "proof_points": ["Enables data science team", "Reduces data prep time by 70%", "API access for custom models"]
+        },
+        {
+            "id": 19,
+            "category": "risk",
+            "objection": "What happens if this doesn't deliver the promised results?",
+            "response": "That's a prudent question. We stand behind our value proposition. We offer a pilot program where you can validate results with a subset of your data before full commitment. We also have performance guarantees written into our contracts for data accuracy and uptime. What specific outcomes are most important for you to validate?",
+            "proof_points": ["Pilot program available", "Performance guarantees", "Data accuracy SLAs"]
+        },
+        {
+            "id": 20,
+            "category": "risk",
+            "objection": "We've been burned by vendors who over-promised.",
+            "response": "I understand that concern - vendor trust is earned. What I can offer is complete transparency. Let me connect you with three references at institutions similar to yours who can speak candidly about their experience. We also have detailed case studies with verified metrics. Would hearing directly from peers help address your concerns?",
+            "proof_points": ["Verified case studies", "Peer references", "Transparent metrics"]
+        }
+    ]
+}
