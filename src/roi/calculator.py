@@ -77,8 +77,14 @@ class ROICalculator:
         total_net_benefit = total_savings - total_license_cost - implementation_cost
 
         # ROI percentage
-        if total_investment > 0:
-            roi_percent = (total_net_benefit / total_investment) * 100
+        # Bug fix: the numerator (total_net_benefit) spans the full `years`
+        # horizon, so the denominator must too. Previously this divided by
+        # `total_investment` (implementation + a single year of license),
+        # mixing a multi-year benefit with a single-year cost and inflating ROI.
+        # Use the investment summed over the same horizon instead.
+        total_investment_over_horizon = implementation_cost + total_license_cost
+        if total_investment_over_horizon > 0:
+            roi_percent = (total_net_benefit / total_investment_over_horizon) * 100
         else:
             roi_percent = float('inf') if total_net_benefit > 0 else 0
 
